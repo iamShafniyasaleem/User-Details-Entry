@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+body {
+    font-family: "Anonymous Pro", monospace;
+    font-size: 20px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.form-group{
+    max-width: 500px;
+    border: 15px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 5px 10px orangered;
+}
+.form-group{
+    max-width: 500px;
+    border: 15px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 5px 10px orangered;
+
+}
+.btn{
+   
+    background-color: orangered;
+    color: black;
+    border-radius: 20px;
+    width: 80px;
+    
+}
+.btn:hover{
+    background-color: black;
+    color:orangered;
+    border-color: orangered;
+}
+.form-label{
+    color:palegoldenrod;
+}
+label{
+    color:palegoldenrod;
+}
+
+.form-check-input input:checked ~ .checkmark {
+    background-color: orangered;
+  }
+
+  @media (max-width: 600px) {
+      body{
+          font-size: 12px;
+      }
+    .form-group{
+        max-width:200px;
+        border: 15px solid black;
+        border-radius: 15px;
+        padding: 20px;
+        background-color: black;
+        box-shadow: 5px 10px orangered;
+    
+    }
+    .btn{
+        margin-left: 20px;
+        padding: 5px;
+        margin-bottom: 5px;
+        
+    }
+
+    table{
+        width:500px;
+    }
+  }
+
+
+
